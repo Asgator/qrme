@@ -1,0 +1,32 @@
+.text-view-page .wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.text-view-page .textarea {
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 40px;
+    font-family: tahoma;
+    padding: 26px;
+    margin-bottom: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text-view-page .textarea.edit {
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.text-view-page .create {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 26px 0;
+}
