@@ -37,12 +37,12 @@ export const CreateTextPage = () => {
                 />
             </div>
             {params.view ? (
-                <Link className="edit-link" to={`/create/${params.type}?${queryString.stringify({
+                <Link className="edit-link" to={`/qrme/create/${params.type}?${queryString.stringify({
                     ...params,
                     view: '',
                 })}`}>Редактировать</Link>
             ) : (
-                <Link className="edit-link create" to={`/?${
+                <Link className="edit-link create" to={`/qrme/?${
                     queryString.stringify({
                         ...params,
                         value,
